@@ -1,0 +1,174 @@
+body{
+    background-color: #f4f6f8;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.topbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 13px 18px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.topbar a{
+    text-decoration: none;
+    color: #2563eb;
+}
+.card{
+    background-color: white;
+    padding: 20px;
+    border-radius: 12px;
+    margin-bottom: 20px;
+}
+.card h3{
+    margin-bottom: 18px;
+}
+.experience{
+    border-top: 1px solid #e5e7eb;
+    padding-top: 15px;
+    margin-top: 15px;
+}
+.exp-head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.delete-btn{
+    background-color: none;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.education{
+    border-top: 1px solid #e5e7eb;
+    padding-top: 15px;
+    margin-top: 15px;
+}
+.edu-head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.project{
+    border-top: 1px solid #e5e7eb;
+    padding-top: 15px;
+    margin-top: 15px;
+}
+.ph{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+
+}
+.ph2{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.ph2 input{
+    width: 80%;
+    box-sizing: border-box;
+
+}
+.grid-2{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap:15px;
+    width: 100%;
+}
+.grid-2>div{
+    width: 100%;
+}
+label{
+    display: block;
+    margin-top: 6px;
+    font-size: 14px;
+    color: #555;
+}
+input,textarea{
+    width: 80%;
+    height: 25px;
+    padding: 10px 14px;
+    margin-top: 6px;
+    border-radius: 8px;
+    border: 1px solid black;
+    box-sizing: border-box;
+}
+
+textarea{
+    margin-top: 15px;
+    min-height: 100px;
+}
+.section-head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    
+}
+.btn{
+    background-color: #111827;
+    color: white;
+    border: none;
+    border-radius: 12px;
+    padding: 8px 12px;
+    cursor: pointer;
+}
+.btn.small{
+    font-size: 14px;
+}
+@media(max-width:400px){
+    body{
+        margin: 0;
+        padding: 0;
+        font-size: 14px;
+    }
+    .topbar{
+        flex-direction: row;
+       display: flex;
+       justify-content: space-between;
+    }
+    .topbar a{
+        font-size: 14px;
+    }
+    .topbar h2{
+        font-size: 16px;
+    }
+    .topbar .btn{
+        padding: 8px 10px;
+        font-size: 12px;
+    }
+    .card{
+        padding: 12px;
+        margin-bottom: 15px;
+    }
+    .card h3{
+        font-size: 15px;
+    }
+    .grid-2{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 10px;
+    }
+    input,textarea{
+        width: 80%;
+        font-size: 14px;
+        height: 22px;
+        padding: 8px 12px;
+    }
+    textarea{
+        min-height: 80px;
+    }
+    .section-head .btn.small{
+        font-size: 13px;
+        padding: 10px 10px;
+    }
+    .experience, .education, .project{
+        margin-top: 10px;
+    }
+    
+}
