@@ -1,6 +1,30 @@
-# Resume-Builder
-A responsive Resume Builder web app built using HTML, CSS and JavaScript.
-#Allows users to create, preview, and download resumes
-#Deployed live using GitHub Pages
-#GitHub Repo: https://github.com/diyu-patel/Resume-Builder
-#Live Demo: https://diyu-patel.github.io/Resume-Builder/
+# Resume Builder 📝
+
+A responsive Resume Builder web application that helps users create professional resumes quickly and easily.
+
+## 🚀 Live Demo
+👉 https://diyu-patel.github.io/Resume-Builder/
+
+---
+
+## ✨ Features
+- Clean & modern UI
+- Fully responsive (Mobile & Desktop)
+- Easy form-based resume creation
+- Sections for:
+  - Personal Information
+  - Professional Summary
+  - Work Experience
+  - Education
+  - Skills
+  - Projects
+- One-click resume preview
+- Simple and user-friendly interface
+
+---
+
+## 🛠️ Built With
+- HTML5  
+- CSS3  
+- JavaScript (Vanilla JS)
+
